@@ -28,3 +28,4 @@ def commands():
         env.PATH.prepend("{root}/bin")
         env.HOUDINI_PATH.prepend("{root}/Plugins/Houdini/${HOUDINI_VERSION}")
         env.PXR_PLUGINPATH_NAME.append("{root}/Plugins/Solaris/${HOUDINI_VERSION}")
+        env.HOUDINI_DSO_ERROR = "2"
